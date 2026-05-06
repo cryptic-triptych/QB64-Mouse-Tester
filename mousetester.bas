@@ -18,6 +18,6 @@ Do
         Print "Middle Button : ";
         If _MouseButton(3) Then Print "PRESSED" Else Print "Released"
     Wend
-    _Limit 1200
+    _Limit 60
 Loop Until InKey$ <> ""
 System
