@@ -7,7 +7,7 @@ This is a simple diagnostic utility written in **QB64** to test and verify mouse
 ## ## Features
 * **Real-time Tracking**: Displays live $X$ and $Y$ coordinates within an 800x600 window.
 * **Button Detection**: Monitors the status (Pressed/Released) of the Left, Right, and Middle mouse buttons.
-* **High Refresh Rate**: Utilizes `_Limit 1200` for smooth, responsive input polling.
+* **High Refresh Rate**: Utilizes `_Limit 60` for smooth, responsive input polling.
 
 ---
 
